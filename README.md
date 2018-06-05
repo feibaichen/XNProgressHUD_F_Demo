@@ -5,7 +5,7 @@
 
 
 使用说明
-
+--------------------------------------------
 // 设置显示位置
 
 [XNHUD setPosition:CGPointMake(self.view.bounds.size.width/2, self.view.bounds.size.height * 0.7)];
@@ -17,7 +17,7 @@
 [XNHUD setMaskType:(XNProgressHUDMaskTypeBlack)  hexColor:0x00000044];
 [XNHUD setMaskType:(XNProgressHUDMaskTypeCustom) hexColor:0xff000044];
 
-
+-------------------------------------------
 在UIWindow上显示：
 
 [XNHUD showLoadingWithTitle:@"正在登录"];
@@ -30,6 +30,8 @@
 
 [XNHUD showSuccessWithTitle:@"操作成功"];
 
+
+------------------------------------------
 在UIViewController上显示（maskType.enable=true时，导航栏依然可以接受点击事件）
 
 
@@ -46,7 +48,7 @@
 [self.hud showSuccessWithTitle:@"操作成功"];
 
 
-\n
+-------------------------------------------
 
 在UIView上显示
 
@@ -61,6 +63,7 @@ UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
 [XNHUD showLoadingWithTitle:@"指定显示在某个View上"];
 
 
+-----------------------------
 属性和方法说明
 
 显示时长minimumDelayDismissDuration作用于非加载样式的视图：XNRefreshViewStyleInfoImage、XNRefreshViewStyleError、XNRefreshViewStyleSuccess； 
@@ -79,7 +82,7 @@ UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
 [XNHUD setOrientation:XNProgressHUDOrientationHorizontal];
 
 
-
+-------------------------------
 自定义XNProgressHUD
 
 
