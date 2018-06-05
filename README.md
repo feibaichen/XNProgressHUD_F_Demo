@@ -32,6 +32,7 @@
 
 在UIViewController上显示（maskType.enable=true时，导航栏依然可以接受点击事件）
 
+
 // 引入'UIViewController+XNProgressHUD.h'
 
 [self.hud showLoadingWithTitle:@"正在登录"];
@@ -43,6 +44,7 @@
 [self.hud showErrorWithTitle:@"拒绝访问"];
 
 [self.hud showSuccessWithTitle:@"操作成功"];
+
 
 
 
