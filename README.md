@@ -1,5 +1,6 @@
 # XNProgressHUD_Demo
 原创地址：https://github.com/LuohanCC/XNProgressHUD
+-------------------------------------------
  ![image](https://github.com/feibaichen/XNProgressHUD_F_Demo/blob/master/xnp.gif)
 
 
